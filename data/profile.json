@@ -1,0 +1,126 @@
+{
+  "personal": {
+    "name": "BRIGHT A. BELLO",
+    "title": "Data Scientist, Student of Quant Finance and Actuarial Science",
+    "slogans": [
+      "Stay hungry, stay foolish.",
+      "Think different.",
+      "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+      "Nil Satis Nisi Optimum."
+    ],
+    "location": "Vancouver BC",
+    "email": "brightbello04@gmail.com",
+    "github": "bbarafat",
+    "linkedin": "bello-arafat",
+    "website": "Profile Page",
+    "about": "Curious and professional with a love for new experiences. I am an unhappy football fan these days, but very happy playing it myself. Amateur chess player with a weakness for chocolate. Data Science aficianado and Quant Finance enthusiast."
+  },
+  "skills": {
+    "programmingLanguages": [
+      "Python",
+      "SQL",
+      "R",
+      "MQL"
+    ],
+    "dataScience": [
+      "Scikit-learn",
+      "ggplot2",
+      "Python",
+      "R",
+      "Altair",
+      "Quarto",
+      "Seaborn"
+    ],
+    "quant": [
+      "Time Series",
+      "Options Pricing",
+      "Portfolio Management and Optimization",
+      "Derivative Pricing",
+      "Back-testing Trading Strategies",
+      "Stochastic Modelling",
+      "Algorithmic Trading",
+      "Machine and Deep Learning For Finance"
+    ],
+    "dataEngineering": [
+      "ETL Pipelines",
+      "Data Validation",
+      "yfinance/Market Data Ingestion",
+      "Github Actions"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Compliance and Financial Crimes",
+      "company": "Zenith Bank Ghana Limited.",
+      "duration": "September 2022 - July 2025",
+      "location": "Accra, Ghana",
+      "description": "Financial crimes analysis, SWIFT transaction monitoring, Sanctions policy development and Regulatory compliance",
+      "tools": "Microsoft Excel, SWIFT, FICO Tonbeller",
+      "logo": "/Zenith_Bank_Logo.png"
+    },
+    {
+      "title": "Claims Officer (Intern)",
+      "company": "Quality Life Assurance Company Limited",
+      "duration": "Jul 2022 - December 2022",
+      "location": "Tamale, Ghana",
+      "description": "Performed claims reconciliation for life and mortality insurance claims. I was also partially in charge of bonus payment computations for agents of the company.",
+      "tools": "MS Excel, Macros (VBA), Python",
+      "logo": "/qlac_bg.png"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mean Reversion Strategy Backtested",
+      "description": "Made a Mean Reversion backtesting strategy that dynamically loaded price data from yfinance via its api and tested different approaches to determine an optimal strategy for automating trades."
+      
+    },
+    {
+      "name": "Financial Risk For Loan Approval Classifier",
+      "description": "Built a classification algorithm that predicted if a customers loan was approved, given certain characteristics about them."
+    },
+    {
+      "name": "SMA Strategy",
+      "description": "Built a Simple Moving Average strategy and backtested it using different window sizes."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Masters - Data Science",
+      "institution": "University of British Columbia, Vancouver, Canada",
+      "duration": "August 2025 - present",
+      "details": "ML, AI, Python - Pandas, Numpy, R, Github, Docker, Reproducible Workflows",
+      "logo": "/ubc.svg",
+      "link": "https://ubc.ca"
+    },
+    {
+      "degree": "Masters - Financial Engineering",
+      "institution": "World Quant University - Washington",
+      "duration": "Sep 2024 - Aug 2026",
+      "details": "Derivatives and Pricing, Financial Markets, ML for Finance, Deep Learning for Finance, Risk Management, Portfolio Management, Econometrics, Reinforcement Learning",
+      "logo": "/wqu_logo.png",
+      "link": "https://www.wqu.edu/"
+    },
+    {
+      "degree": "Bachelors - Actuarial Science",
+      "institution": "Kwame Nkrumah University of Science and Technology",
+      "duration": "Sep 2018 - Oct 2022",
+      "details": "Python, R, Statistics, Mathematics, Actuarial Math, Corporate Finance, Financial Mathematics",
+      "logo": "/knust_logo.jpg",
+      "link": "https://knust.edu.gh"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Foundations Of Financial Engineering",
+      "organization": "WQU",
+      "year": "2024",
+      "logo": "/wqu_logo.png"
+    },
+    {
+      "name": "Algorithmic Trading",
+      "organization": "Udemy",
+      "year": "2025",
+      "logo": "/udemy.svg"
+    }
+  ]
+}

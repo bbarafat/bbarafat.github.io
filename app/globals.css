@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+:root {
+  --background: 220 20% 98%;
+  --foreground: 222 15% 20%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 15% 20%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 15% 20%;
+
+  --primary: 215 90% 52%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 215 40% 92%;
+  --secondary-foreground: 222 15% 20%;
+
+  --muted: 215 32% 90%;
+  --muted-foreground: 222 15% 45%;
+
+  --accent: 205 75% 60%;
+  --accent-foreground: 222 15% 20%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 215 30% 88%;
+  --input: 215 30% 88%;
+  --ring: 215 90% 52%;
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  /* SOFTER SLATE-BLUE: Reduced saturation for gentler appearance */
+  --background: 210 22% 28%;
+  --foreground: 180 30% 96%;
+
+  /* ELEVATED CARDS: Lighter with subtle gradient feel */
+  --card: 210 20% 34%;
+  --card-foreground: 180 30% 96%;
+
+  --popover: 210 20% 34%;
+  --popover-foreground: 180 30% 96%;
+
+  /* SOFT AQUA PRIMARY: Desaturated for modern look */
+  --primary: 185 65% 58%;
+  --primary-foreground: 210 22% 16%;
+
+  /* MUTED SECONDARY: Gentle contrast */
+  --secondary: 205 18% 38%;
+  --secondary-foreground: 180 30% 96%;
+
+  /* SUBTLE MUTED: Low saturation for calm feel */
+  --muted: 205 16% 38%;
+  --muted-foreground: 190 18% 75%;
+
+  /* SOFT TEAL ACCENT: Less aggressive cyan */
+  --accent: 175 55% 60%;
+  --accent-foreground: 210 22% 16%;
+
+  --destructive: 0 55% 50%;
+  --destructive-foreground: 180 30% 96%;
+
+  /* GENTLE BORDERS: Barely there but functional */
+  --border: 205 16% 42%;
+  --input: 205 16% 42%;
+  --ring: 185 65% 58%;
+}
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* Smooth scrollbar with gradient effect */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 4px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35));
+    background-clip: content-box;
+  }
+  
+  .dark ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(100, 200, 210, 0.2), rgba(80, 180, 190, 0.35));
+    background-clip: content-box;
+  }
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgba(100, 200, 210, 0.35), rgba(80, 180, 190, 0.5));
+    background-clip: content-box;
+  }
+}
+
+/* Theme-responsive icons */
+.logo-icon {
+  filter: brightness(0) invert(0);
+}
+
+.dark .logo-icon {
+  filter: brightness(0) invert(1);
+}
+
+/* Enhanced social icon hover with soft glow */
+a[href*="github.com"], a[href*="linkedin.com"] {
+  @apply transition-all duration-300 ease-out;
+}
+
+a[href*="github.com"]:hover, a[href*="linkedin.com"]:hover {
+  @apply scale-110 rounded-lg p-2 -m-2;
+  background-color: rgba(100, 200, 210, 0.08);
+  filter: drop-shadow(0 0 8px rgba(100, 200, 210, 0.3));
+}
+
+/* Soft card hover effects */
+.dark [class*="card"]:hover,
+.dark section:hover {
+  box-shadow: 0 8px 32px rgba(100, 200, 210, 0.08),
+              0 0 0 1px rgba(100, 200, 210, 0.1);
+  transform: translateY(-2px);
+  transition: all 0.3s ease-out;
+}
+
+/* Soft glow for interactive elements */
+.dark button:hover,
+.dark [role="button"]:hover {
+  box-shadow: 0 4px 20px rgba(100, 200, 210, 0.15);
+  transition: all 0.3s ease-out;
+}
+
+/* Text selection styling */
+::selection {
+  background-color: rgba(100, 200, 210, 0.3);
+  color: inherit;
+}
+
+.dark ::selection {
+  background-color: rgba(100, 200, 210, 0.25);
+}
+
+/* Smooth focus rings */
+.dark *:focus-visible {
+  outline: 2px solid rgba(100, 200, 210, 0.5);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Gradient text enhancement for headings */
+.dark h1, .dark h2 {
+  background: linear-gradient(135deg, 
+    hsl(180, 30%, 96%) 0%, 
+    hsl(185, 55%, 75%) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtle backdrop blur for elevated elements */
+.dark nav,
+.dark header {
+  backdrop-filter: blur(12px) saturate(120%);
+  background-color: rgba(var(--card), 0.8);
+  border-bottom: 1px solid rgba(100, 200, 210, 0.1);
+}
