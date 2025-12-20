@@ -72,7 +72,7 @@
     {
       "name": "SMA Web App",
       "description": "Developed a web application that allows users to backtest Simple Moving Average trading strategies on ETFs of their choice. The app fetches historical price data from yfinance,stooq or uses cached data, and provides visualizations of the strategy's performance.",
-      "link": "https://github.com/bbarafat/sma_web_app"
+      "link": "https://smawebapp.streamlit.app/"
     },
     {
       "name": "Mean Reversion Strategy Backtested",
