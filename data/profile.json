@@ -76,8 +76,8 @@
     },
     {
       "name": "Mean Reversion Strategy Backtested",
-      "description": "Made a Mean Reversion backtesting strategy that dynamically loads price data from yfinance via its api and tested different approaches to determine an optimal strategy for automating trades.",
-      "link": "https://github.com/bbarafat/Mean-Reversion"
+      "description": "Made a Mean Reversion backtesting strategy that dynamically loads price data from yfinance via its api and tested different approaches to determine an optimal strategy for automating trades. Clicking this link will send you to the html rendered github page. For access to the original code notebook, follow the link on the html page to the repo.",
+      "link": "https://bbarafat.github.io/Mean-Reversion/reports/mean-reversion.html"
       
     },
     {
