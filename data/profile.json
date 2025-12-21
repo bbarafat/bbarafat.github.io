@@ -82,11 +82,13 @@
     },
     {
       "name": "Financial Risk For Loan Approval Classifier",
-      "description": "Built a classification algorithm that predicted if a customers loan was approved, given certain characteristics about them."
+      "description": "Built a classification algorithm that predicted if a customers loan was approved, given certain characteristics about them.",
+      "link": "https://github.com/bbarafat/Projects"
     },
     {
       "name": "SMA Strategy",
-      "description": "Built a Simple Moving Average strategy and backtested it using different window sizes."
+      "description": "Built a Simple Moving Average strategy and backtested it using different window sizes.",
+      "link": "https://github.com/bbarafat/Projects"
     }
   ],
   "education": [
