@@ -81,6 +81,12 @@
       
     },
     {
+      "name": "Credit Risk Model",
+      "description": "Built a fully reproducible end to end classification model deployed using RestAPI and dockerized, image available on dockerhub. This model focused on minimising false negatives in line with the business goal of identifying customers likely to default on their credit payments.",
+      "link": "https://github.com/bbarafat/credit_risk_ml"
+      
+    },
+    {
       "name": "Financial Risk For Loan Approval Classifier",
       "description": "Built a classification algorithm that predicted if a customers loan was approved, given certain characteristics about them.",
       "link": "https://github.com/bbarafat/Projects"
