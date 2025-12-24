@@ -87,14 +87,9 @@
       
     },
     {
-      "name": "Financial Risk For Loan Approval Classifier",
-      "description": "Built a classification algorithm that predicted if a customers loan was approved, given certain characteristics about them.",
-      "link": "https://github.com/bbarafat/Projects"
-    },
-    {
-      "name": "SMA Strategy",
-      "description": "Built a Simple Moving Average strategy and backtested it using different window sizes.",
-      "link": "https://github.com/bbarafat/Projects"
+      "name": "West Africa Analytics Dashboard",
+      "description": "Built a comprehensive dashboard using data from the WorldBanks open datasets, via their API, to provide visuals and summary statistics of West African countries across different categories like GDP and population.",
+      "link": "https://africa-analytics.streamlit.app/"
     }
   ],
   "education": [
