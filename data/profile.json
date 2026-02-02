@@ -3,10 +3,14 @@
     "name": "BRIGHT A. BELLO",
     "title": "Data Scientist, Student of Quant Finance and Actuarial Science",
     "slogans": [
-      "Stay hungry, stay foolish.",
+      "Life is what happens to us while we are making other plans.",
       "Think different.",
       "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
-      "Nil Satis Nisi Optimum."
+      "Nil Satis Nisi Optimum.",
+      "Doubt kills more dreams than failure ever will.",
+      "Keep your face always toward the sunshine, and shadows will fall behind you.",
+      "The happiness of your life depends on the quality of your thoughts.",
+      "Whether you think you can or think you can’t, you’re right."
     ],
     "location": "Vancouver BC",
     "email": "brightbello04@gmail.com",
@@ -49,6 +53,15 @@
     ]
   },
   "experience": [
+    {
+      "title": "Fund Management Intern",
+      "company": "Fund Launch",
+      "duration": "January - March 2026",
+      "location": "Vancouver BC",
+      "description": "Structured fund management internship focused on alternative asset funds. Training covers fund operations, financial modelling, market research and investment decision workflows",
+      "tools": "Microsoft Excel, Python",
+      "logo": "/fund_launch.svg"
+    },
     {
       "title": "Compliance and Financial Crimes",
       "company": "Zenith Bank Ghana Limited.",
