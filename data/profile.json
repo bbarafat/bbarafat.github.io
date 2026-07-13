@@ -54,6 +54,15 @@
   },
   "experience": [
     {
+      "title": "Senior Domain Expert - AI Model Evaluator",
+      "company": "Mercor",
+      "duration": "May 2026 - Present",
+      "location": "Remote",
+      "description": "Contracted by Mercor to evaluate frontier AI model outputs across data science, quantitative finance, and financial engineering domains on behalf of leading AI research labs. Assessed AI-generated responses for aesthetics, factual accuracy, methodological soundness, and practical usefulness",
+      "tools": "Domain Expertise, Python",
+      "logo": "/mercor.jpg"
+    },
+    {
       "title": "Fund Management Intern",
       "company": "Fund Launch",
       "duration": "January - March 2026",
@@ -83,6 +92,11 @@
   ],
   "projects": [
     {
+      "name": "Capstone Project - Dynamic Bitcoin Accumulation Strategies",
+      "description": "Developed several dynamic strategies for accumulating Bitcoin over time, under the stacksats framework, with the goal of beating Dollar Cost Averaging (DCA).",
+      "link": "https://shrutisasi.github.io/AdaptiveSats/"
+    },
+    {
       "name": "SMA Web App",
       "description": "Developed a web application that allows users to backtest Simple Moving Average trading strategies on ETFs of their choice. The app fetches historical price data from yfinance,stooq or uses cached data, and provides visualizations of the strategy's performance.",
       "link": "https://smawebapp.streamlit.app/"
@@ -109,7 +123,7 @@
     {
       "degree": "Masters - Data Science",
       "institution": "University of British Columbia, Vancouver, Canada",
-      "duration": "August 2025 - present",
+      "duration": "August 2025 - June 2026",
       "details": "ML, AI, Python - Pandas, Numpy, R, Github, Docker, Reproducible Workflows",
       "logo": "/ubc.svg",
       "link": "https://ubc.ca"
