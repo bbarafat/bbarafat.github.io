@@ -54,6 +54,15 @@
   },
   "experience": [
     {
+      "title": "Credit Counsellor",
+      "company": "CIBC",
+      "duration": "September 2026 - Present",
+      "location": "Vancouver BC",
+      "description": "Provided credit counselling services to clients, helping them manage their debt and improve their financial well-being.",
+      "tools": "Delinquency systems, Excel, Financial Planning",
+      "logo": "/cibc_logo.jpg"
+    },
+    {
       "title": "Senior Domain Expert - AI Model Evaluator",
       "company": "Mercor",
       "duration": "May 2026 - Present",
